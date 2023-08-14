@@ -2,13 +2,15 @@ package ru.piaksheva.calcapp.util;
 
 public class Calculator {
 
-    public static Integer summarize(Integer a, Integer b){
-        return a+b;
+    public static int summarize(int a, int b) {
+        return a + b;
     }
-    public static Integer subtract(Integer a, Integer b){
-        return a-b;
+
+    public static int subtract(int a, int b) {
+        return a - b;
     }
-    public static Integer multiply(Integer a, Integer b){
-        return a*b;
+
+    public static int multiply(int a, int b) {
+        return a * b;
     }
 }
